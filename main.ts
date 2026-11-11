@@ -1,6 +1,7 @@
 // ai-joke-02 entry (Node 22, standard library only).
 // Writes one fixed joke about AI coding agents to /output/entry.txt.
 // No network, no clock, no randomness: both grader runs write identical bytes.
+// One line, no trailing newline: the judge reads exactly these bytes.
 // Outside the grader, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
